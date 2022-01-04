@@ -1,0 +1,56 @@
+body {
+    margin: 0px;
+  }
+  
+  #showMenu {
+    display: grid;
+    grid-template: 450px / 20% 20%;
+    justify-content: center;
+    column-gap: 25px;
+    row-gap: 25px;
+    margin-bottom: 75px;
+  }
+  
+  #showMenu > div {
+    border: 1px solid red;
+    height: 450px;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  img {
+    width: 100%;
+  }
+  
+  button {
+    background: crimson;
+    font-family: sans-serif;
+    color: white;
+    border: none;
+    width: 45%;
+    height: 40px;
+    margin-left: 83px;
+    cursor: pointer;
+  }
+  
+  #showMenu > div > p {
+    text-align: center;
+  }
+  
+  #header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: black;
+    color: white;
+    padding-left: 50px;
+    margin-bottom: 50px;
+  }
+  #header > p {
+    margin-right: 70px;
+    font-family: sans-serif;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 25px;
+  }
+  

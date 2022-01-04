@@ -1,0 +1,59 @@
+td,
+th {
+  border: 1px solid black;
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#nameBox {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  background: black;
+  margin-bottom: 50px;
+  color: white;
+  padding-left: 50px;
+}
+#header > p {
+  margin-right: 120px;
+  font-family: sans-serif;
+  color: red;
+  font-weight: bold;
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+th {
+  background: black;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+body {
+  margin: 0px;
+}
+
+#chkout {
+  margin-top: 20px;
+  margin-left: 25px;
+  height: 50px;
+  background: black;
+  color: white;
+  width: 200px;
+  border: none;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+table {
+  margin-left: 25px;
+}
